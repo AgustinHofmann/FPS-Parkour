@@ -9,9 +9,10 @@ public class MoneyManager : MonoBehaviour
 
     public void UpdateMoney(float amount)
     {
-        if (money < amount)
+        if (money + amount < 0) 
         {
             //impedir la compra
+            Debug.Log("Dinero insuficiente");
         }
         else
         {
