@@ -296,6 +296,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yRespawnValue: -0.23
+--- !u!114 &187717865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187717863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd0d5a9b6714e040986fe2f6cac52d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 0
 --- !u!4 &347027160 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6441931238596812699, guid: 187faf694dc3e5f45af68d278a885223,
@@ -352,6 +365,50 @@ Transform:
   - {fileID: 170076735}
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &615049634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615049636}
+  - component: {fileID: 615049635}
+  m_Layer: 0
+  m_Name: MONEYMANAGER
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &615049635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615049634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd0d5a9b6714e040986fe2f6cac52d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 0
+--- !u!4 &615049636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615049634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.129549, y: -1.2040911, z: 70.025314}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &711575544
 GameObject:
@@ -511,6 +568,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8301348219256675485, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d23a71d629ca2cb428e58efdcf5d4c1b, type: 3}
 --- !u!4 &762393580 stripped
@@ -563,6 +625,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7756501647386809453}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &833089425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833089421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61999b2af984a9641848240912badfa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 0
 --- !u!1001 &1255825531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1019,6 +1094,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 614180046599116019}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1645900711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645900706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61999b2af984a9641848240912badfa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cost: 0
 --- !u!4 &1847466433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 603645799776002717, guid: 4e75c8e345eeb63469d81ce448ca660d,
